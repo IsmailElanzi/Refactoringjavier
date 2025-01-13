@@ -49,6 +49,7 @@ public class Ejercicio5 {
 	        System.out.println("Media de los números negativos: " + mediaNegativos);
 	        System.out.println("Cantidad de ceros: " + countCeros);
 
+	        
 	        scanner.close();
 	    }
 	}
