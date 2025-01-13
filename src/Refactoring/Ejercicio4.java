@@ -49,7 +49,6 @@ public class Ejercicio4 {
         System.out.println("Multiplicación de los números: " + multiplicacion);
         System.out.println("División de los números: " + division); 
         
-        // Cerrar el scanner
         scanner.close();
     }
 }

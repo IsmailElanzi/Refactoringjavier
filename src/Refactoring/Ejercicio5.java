@@ -40,7 +40,7 @@ public class Ejercicio5 {
 	        }
 
 	        // 5. Calcular las medias
-	        double mediaPositivos = countPositivos > 0 ? (double) sumaPositivos / countPositivos : 1;
+	        double mediaPositivos = countPositivos > 0 ? (double) sumaPositivos / countPositivos : 0;
 	        double mediaNegativos = countNegativos > 0 ? (double) sumaNegativos / countNegativos : 1;
 
 	        // 6. Mostrar los resultados

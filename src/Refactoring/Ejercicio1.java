@@ -7,7 +7,7 @@ public class Ejercicio1 {
 		Scanner input = new Scanner(System.in);
 		
        
-        double numeros[] = new double[3];
+        double numeros[] = new double[4];
         
         System.out.println("Por favor introduce 5 numeros:");
 
