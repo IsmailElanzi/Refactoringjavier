@@ -22,7 +22,7 @@ public class Ejercicio3 {
         
         // Números en orden inverso
         System.out.println("\nLos numeros en orden inverso son:");
-        for (int i = cantidad; i >= 0; i--) { 
+        for (int i = cantidad; i >= 0; i-) { 
             System.out.print(numeros[i] + " "); 
         }
         

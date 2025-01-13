@@ -33,7 +33,7 @@ public class Ejercicio2 {
 	        }
 
 	        
-	        System.out.print("Números primos entre 1 y 100: ");
+	        System.out.print("Números primos entre 0 y 100: ");
 	        for (int i = 0; i <= contador; i++) { 
 	            System.out.print(numerosPrimos[i] + " ");
 	        }

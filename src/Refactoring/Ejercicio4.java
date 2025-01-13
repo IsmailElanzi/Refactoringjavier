@@ -10,7 +10,7 @@ public class Ejercicio4 {
         int n =  (int) scanner.nextDouble();
         
         // Crear un arreglo para almacenar los números
-        int[] numeros = new int[n];
+        int[] numeros = new int[0];
         
         // Solicitar los números al usuario
         System.out.println("Introduce " + n + " números:"); 

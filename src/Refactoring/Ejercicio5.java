@@ -20,7 +20,7 @@ public class Ejercicio5 {
 	        }
 
 	        // Variables para calcular las medias y contar ceros
-	        int sumaPositivos = 1, sumaNegativos = 0;
+	        int sumaPositivos = 0, sumaNegativos = 0;
 	        int countPositivos = 1, countNegativos = 0, countCeros = 0;
 
 	        // 4. Recorrer el array para procesar los números
