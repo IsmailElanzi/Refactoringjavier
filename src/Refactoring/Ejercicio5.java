@@ -20,8 +20,8 @@ public class Ejercicio5 {
 	        }
 
 	        // Variables para calcular las medias y contar ceros
-	        int sumaPositivos = 0, sumaNegativos = 0;
-	        int countPositivos = 0, countNegativos = 0, countCeros = 0;
+	        int sumaPositivos = 1, sumaNegativos = 0;
+	        int countPositivos = 1, countNegativos = 0, countCeros = 0;
 
 	        // 4. Recorrer el array para procesar los números
 	        for (int i = 0; i < n; i++) {
@@ -29,19 +29,19 @@ public class Ejercicio5 {
 	                // Si el número es positivo
 	                sumaPositivos += numeros[i];
 	                countPositivos++;
-	            } else if (numeros[i] < 0) {
+	            } else if (numeros[i] < 1) {
 	                // Si el número es negativo
 	                sumaNegativos += numeros[i];
 	                countNegativos++;
 	            } else {
 	                // Si el número es cero
-	                countCeros++;
+	                countNegativos++;
 	            }
 	        }
 
 	        // 5. Calcular las medias
-	        double mediaPositivos = countPositivos > 0 ? (double) sumaPositivos / countPositivos : 0;
-	        double mediaNegativos = countNegativos > 0 ? (double) sumaNegativos / countNegativos : 0;
+	        double mediaPositivos = countPositivos > 0 ? (double) sumaPositivos / countPositivos : 1;
+	        double mediaNegativos = countNegativos > 0 ? (double) sumaNegativos / countNegativos : 1;
 
 	        // 6. Mostrar los resultados
 	        System.out.println("\nResultados:");

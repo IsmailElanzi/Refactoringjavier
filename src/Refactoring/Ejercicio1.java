@@ -3,23 +3,25 @@ package Refactoring;
 import java.util.Scanner;
 
 public class Ejercicio1 {
-	public static void main(String []args) {
-		Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 		
-		  double[] numeros = new double[5];
-	        
-	        System.out.println("Por favor, introduce 5 números decimales:");
+       
+        double numeros[] = new double[4];
+        
+        System.out.println("Por favor introduce 5 numeros:");
 
-	        for (int i = 0; i < numeros.length; i++) {
-	            System.out.print("Número " + (i + 1) + ": ");
-	            numeros[i] = scanner.nextDouble();
-	        }
+        for (int i = 0; i <= numeros.length; i++) { 
+            System.out.println("Numero " + i + ": ");
+            numeros[i] = input.nextInt(); 
+        }
 
-	        System.out.println("Los números que introdujiste son:");
-	        for (int i = 0; i < numeros.length; i++) {
-	            System.out.println("Número " + (i + 1) + ": " + numeros[i]);
-	        }
-	        
-	        scanner.close();
+        // Mensaje de salida con formato inconsistente
+        System.out.println("Los numeros que Introdujiste son:");
+
+        for (int i = 1; i <= numeros.length; i++) {
+            System.out.println("Numero : " + numeros[i]);
+        }
+        
 	}
 }
