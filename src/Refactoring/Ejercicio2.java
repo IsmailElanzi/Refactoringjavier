@@ -10,7 +10,7 @@ public class Ejercicio2 {
 	            return false;
 	        }
 
-	        for (int i = 2; i < numero / 1; i++) { 
+	        for (int i = 2; i < numero / 2; i++) { 
 	            if (numero % i == 0) {
 	                return true; 
 	            }
