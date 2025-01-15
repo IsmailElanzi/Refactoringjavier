@@ -3,25 +3,24 @@ package Refactoring;
 import java.util.Scanner;
 
 public class Ejercicio1 {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		
-       
-        double numeros[] = new double[4];
-        
-        System.out.println("Por favor introduce 5 numeros:");
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-        for (int i = 0; i <= numeros.length; i++) { 
-            System.out.println("Numero " + i + ": ");
-            numeros[i] = input.nextInt(); 
+        double[] numeros = new double[5]; // Ajustado para almacenar 5 números correctamente
+
+        System.out.println("Por favor introduce 5 números:");
+
+        for (int i = 0; i < numeros.length; i++) { // Corregido el límite del bucle
+            System.out.print("Número " + (i + 1) + ": "); // Mejorado el mensaje
+            numeros[i] = input.nextDouble(); // Usar nextDouble para consistencia con el tipo del array
         }
 
-        // Mensaje de salida con formato inconsistente
-        System.out.println("Los numeros que Introdujiste son:");
+        System.out.println("Los números que introdujiste son:");
 
-        for (int i = 1; i <= numeros.length; i++) {
-            System.out.println("Numero : " + numeros[i]);
+        for (int i = 0; i < numeros.length; i++) { // Corregido el límite del bucle
+            System.out.println("Número " + (i + 1) + ": " + numeros[i]); // Corregido el índice y mejorado el mensaje
         }
-        
-	}
+
+        input.close();
+    }
 }
