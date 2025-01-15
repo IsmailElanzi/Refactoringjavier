@@ -16,3 +16,9 @@ números. Muestra la suma, resta, multiplicación y división de todos.
 6. Introducir por teclado un número n; a continuación solicitar al usuario que teclee n
 números. Realizar la media de los números positivos, la media de los negativos y contar
 el número de ceros introducidos.
+
+Mejoras realizadas:
+Correción de límites en bucles: Ajusté los límites en ambos bucles para que no se excedan del tamaño del array, evitando errores como ArrayIndexOutOfBoundsException.
+Tamaño correcto del array: Modifiqué el tamaño del array numeros a 5 para coincidir con el mensaje que solicita 5 números.
+Consistencia de tipos: Usé nextDouble() en lugar de nextInt() para garantizar que los datos coincidan con el tipo double del array.
+Mensajes mejorados: Mejoré los mensajes para mostrar índices consistentes y más amigables (comenzando desde 1 para el usuario).
